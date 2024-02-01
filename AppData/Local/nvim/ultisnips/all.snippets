@@ -1,0 +1,7 @@
+snippet fstring_cmp 
+$0wcscmp((wchar_t*) $1.Data.AllocatorInstance.Data, L"$2") == 0
+endsnippet
+
+snippet fstring_search
+$0wcsstr((wchar_t*) $1.Data.AllocatorInstance.Data, L"$2")
+endsnippet

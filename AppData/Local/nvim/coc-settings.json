@@ -1,0 +1,37 @@
+{
+	"settings": {
+		"Lua": {
+			"workspace": {
+				"library": [
+					"${3rd}/lfs/library",
+					"../../Tools/LuaLanguageServer"
+				],
+				"maxPreload": 10000,
+				"preloadFileSize": 1024,
+				"ignoreDir" : [
+					".vscode",
+					"./Configs",
+					"./data",
+					"./Lua/PB",
+					"./Lua/Protocol",
+					"./userdata"
+				]
+			},
+			"runtime": {
+				"version": "Lua 5.1"
+			},
+			"diagnostics": {
+				"globals": [ "lfs" ],
+				"disable": [
+					"invisible",
+					"unused-local"
+				]
+			},
+			"completion": {
+				"keywordSnippet": "Disable"
+			}
+		},
+
+		"settings.test" : true
+	}
+}
