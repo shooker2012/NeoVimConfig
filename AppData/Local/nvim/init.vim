@@ -206,6 +206,26 @@ Plug 'kana/vim-textobj-lastpat'
 Plug 'SirVer/ultisnips'
 
 Plug 'github/copilot.vim'
+
+Plug 'https://github.com/adelarsq/vim-matchit'
+Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'godlygeek/tabular'
+Plug 'preservim/tagbar'
+Plug 'vim-scripts/TagHighlight'
+Plug 'preservim/vim-markdown'
+Plug 'ervandew/supertab'
+Plug 'vim-scripts/a.vim'
+Plug 'mbbill/fencview'
+Plug 'inkarkat/vim-mark'
+Plug 'nelstrom/vim-qargs'
+Plug 'tpope/vim-repeat'
+Plug 'vim-airline/vim-airline'
+Plug 'ctrlpvim/ctrlp.vim'
+
+Plug 'shooker2012/sal-cleanNLatEOF'
+Plug 'shooker2012/sal-proj'
 call plug#end()
 
 
